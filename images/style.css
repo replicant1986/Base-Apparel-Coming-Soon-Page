@@ -1,0 +1,269 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    --red: hsl(0, 36%, 70%);
+    --soft-red: hsl(0, 93%, 68%);
+    --gray-red: hsl(0, 6%, 24%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*  Page Elements  */
+
+.container
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.input-container
+{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+
+input
+{
+    width: 85%;
+    border: 1px solid var(--red);
+    border-radius: 50px ;
+    padding: 22px;
+}
+
+input[type=button]
+{
+    width: 16%;
+    position: relative;
+    background: rgb(248,191,191);
+    background: linear-gradient(135deg, rgba(248,191,191,1) 0%, rgba(238,140,140,1) 83%);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 10px 20px 4px var(--red);
+    left: 184px;
+    bottom: 60px;
+    border: none;
+}
+
+input[type=button]:hover
+{
+    cursor: pointer;
+    background: var(--red);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(255,224,224,1) 45%);
+    box-shadow: 0px 10px 20px 4px var(--red);
+}
+
+
+/*  Fonts  */
+
+h1
+{
+    color: var(--red);
+    font-size: 3.4rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+h2
+{
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 10px;
+    width: 75%;
+    margin-left: 12.5%;
+    margin-bottom: 30px;
+}
+
+p
+{
+    width: 85%;
+    color: var(--red);
+    font-size: 1.2rem;
+    margin-left: 7.5%;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+::placeholder
+{
+    color: var(--red);
+    opacity: 0.5;
+    font-size: 1rem;
+
+}
+
+/* Images  */
+
+.hero-image
+{
+    background-image: url(./hero-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 335px;
+    margin-bottom: 60px;
+}
+
+header img
+{
+    padding: 40px;
+}
+
+.arrow
+{
+    position: relative;
+    width: 3%;
+    height: auto;
+    bottom: 77px;
+    left: 135px;
+}
+
+.arrow:hover
+{
+    cursor: pointer;
+}
+
+
+
+
+
+@media screen and (min-width: 1025px) {
+
+
+
+
+
+
+/*  Page Elements  */
+
+.container
+{
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+}
+
+.input-container
+{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+
+}
+
+input
+{
+    width: 30%;
+    position: relative;
+    left: 10%;
+    border: 1px solid var(--red);
+    border-radius: 50px ;
+    padding: 22px;
+}
+
+input[type=button]
+{
+    width: 7%;
+    position: relative;
+    background: rgb(248,191,191);
+    background: linear-gradient(135deg, rgba(248,191,191,1) 0%, rgba(238,140,140,1) 83%);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 4px 20px 4px var(--red);
+    left: 45px;
+    bottom: -25px;
+    border: none;
+}
+
+
+
+/*  Fonts  */
+
+h1
+{
+    color: var(--red);
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 10%;
+}
+
+h2
+{
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 14px;
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+p
+{
+    width: 31%;
+    color: var(--red);
+    font-size: 1.1rem;
+    margin-left: 10%;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+::placeholder
+{
+    color: var(--red);
+    opacity: 0.5;
+    font-size: 1rem;
+
+}
+
+/* Images  */
+
+.hero-image
+{
+    background-image: url(./hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 42%;
+    height: 100%;
+    margin-right: 0;
+}
+
+header img
+{
+    position: relative;
+    left: 7.5%;
+    margin-bottom: 140px;
+    top: 40px;
+}
+
+.arrow
+{
+    position: relative;
+    width: 1%;
+    height: auto;
+    bottom: -7px;
+    left: -20px;
+}
+
+.arrow:hover
+{
+    cursor: pointer;
+}
+
+}
