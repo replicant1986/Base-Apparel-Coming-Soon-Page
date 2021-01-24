@@ -244,13 +244,13 @@ h2
 
 p
 {
-    width: 30%;
+    width: 32.5%;
     color: var(--red);
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-left: 10%;
     margin-bottom: 40px;
     line-height: 1.6;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
 }
 
 ::placeholder
